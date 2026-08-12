@@ -27,5 +27,12 @@
             {% endfor %}
         </tbody>
     </table>
+    <h2>Add new course</h2>
+    <form action="/create" method="POST">
+        <input type="name" name="name" placeholder="Name">
+        <input type="fees" name="fees" placeholder="Fees">
+        <input type="duration" name="duration" placeholder="Duration">
+        <input type="submit" value="Add">
+    </form>
 </body>
 </html>

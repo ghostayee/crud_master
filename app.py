@@ -75,3 +75,10 @@ def delete():
 
     conn.commit()
     return redirect(url_for('index'))
+
+
+
+
+
+if __name__ in "__name__":
+    app.run(debug=True)
